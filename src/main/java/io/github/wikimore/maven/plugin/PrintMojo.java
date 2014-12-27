@@ -33,8 +33,6 @@ import org.apache.maven.plugins.annotations.Mojo;
 public class PrintMojo extends AbstractMojo {
 
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info("/n");
         getLog().info("This is only a sample plugin for printing something.");
-        getLog().info("/n");
     }
 }
